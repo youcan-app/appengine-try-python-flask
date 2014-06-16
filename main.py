@@ -22,6 +22,11 @@ def auth():
     return 'Add auth feature.'
 
 
+@app.route('/settings')
+def auth():
+    return 'Add settings feature.'
+
+
 @app.route('/me')
 def me():
     return 'This is my status.'
