@@ -17,6 +17,11 @@ def events():
     return 'This is event lists.'
 
 
+@app.route('/auth')
+def auth():
+    return 'Add auth feature.'
+
+
 @app.route('/me')
 def me():
     return 'This is my status.'
